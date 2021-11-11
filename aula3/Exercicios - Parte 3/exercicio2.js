@@ -9,6 +9,7 @@
 // f. 50 é maior que 27
 // g. 975 é menor ou igual a 1200
 
+
 // Item a
 var ehMaior = 5;
 
