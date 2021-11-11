@@ -53,6 +53,7 @@ if(num1 > num2) {
     console.log(`${num1} não é maior que ${num2}`) 
 }
 
+
 // Item g
 var numero1 = 975
 var numero2 = 1200;
