@@ -12,7 +12,7 @@
 //     meuObjeto["Nome com espaco"];
 //     meuObjeto['Mais  espaco'];
 //     meuObjeto["SemEspaco"];
-//     ```
+
     
 //     `meuObjeto["Nome com espaco"]`seria a string `Beyonce`, `meuObjeto['Mais  espaco']`seria a string `Jay-z` e `meuObjeto["SemEspaco"]`seria a string `Blue`.
     

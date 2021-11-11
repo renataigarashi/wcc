@@ -1,6 +1,5 @@
 // 4. Você pode adicionar novas propriedades a objetos JavaScript existentes da mesma maneira que os modificaria ou acessaria. Veja como adicionaríamos a propriedade `brinquedoFavorito` no nosso objeto `gato`.
 
-
 // gato.brinquedoFavorito = "arranhador";
 
 // ou

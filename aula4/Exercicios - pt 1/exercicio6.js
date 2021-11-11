@@ -2,7 +2,6 @@
 
 // Por exemplo, vejamos `gato`:
 
-
 // const gato = {
 //   "nome": "Whiskers",
 //   "patas": 4,
