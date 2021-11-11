@@ -13,7 +13,7 @@ var salarioBase;
 salarioBase = 2000;
 var salarioFuncionarioNovo;
 
-salarioFuncionarioNovo = salarioBase
+salarioFuncionarioNovo = salarioBase;
 
-console.log(salarioBase)
-console.log(salarioFuncionarioNovo)
+console.log(salarioBase);
+console.log(salarioFuncionarioNovo);
