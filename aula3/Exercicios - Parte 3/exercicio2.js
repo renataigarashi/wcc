@@ -41,8 +41,7 @@ num === 50 ? console.log(`"${num}" é estritamente igual a 50`) : console.log(`$
 var veiculo1 = "Carro";
 var veiculo2 = "bicicleta"
 
-veiculo1 == veiculo2 ? console.log(`"${veiculo1}" é igual e "${veiculo2}"`) : console.log(`"${veiculo1}" é diferente de "${veiculo2}"`);
-
+veiculo1 != veiculo2 ? console.log(`"${veiculo1}" é diferente de "${veiculo2}"`) : console.log(`"${veiculo1}" é igual e "${veiculo2}"`) 
 
 //Item f
 var num1 = 50;
