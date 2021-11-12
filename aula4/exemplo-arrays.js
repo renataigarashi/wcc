@@ -52,6 +52,14 @@ console.log(arrayTiposDiferentes);
 //colocando um item no array numa posicao especifica sem sobrescrever o array
 arrayTiposDiferentes.splice(3,0, "testando");
 console.log(arrayTiposDiferentes);
+// Exemplo: 
+// list.splice(1, 0, "baz"); // na posição de índice 1, remova 0 elementos e adicione "baz" a essa posição
+// From Pati Bueno to Everyone 09:52 PM
+// var list = ["foo", "bar"];
+// list.splice(1, 0, "baz"); // na posição de índice 1, remova 0 elementos e adicione "baz" a essa posição
+// // o elemento "barra" agora será movido automaticamente para a posição de índice 2
+// ["foo", "baz", "bar"] // resultado
+
 
 
 //tirando item do array
@@ -72,5 +80,4 @@ arrayTiposDiferentes.splice(3, 1);
 console.log(arrayTiposDiferentes)
 
 
-
-
+// LISTA 2 = https://faithful-ptarmigan-b0c.notion.site/Exerc-cios-pt-2-cf9ca601e0d94676a9f05ecf54886add
