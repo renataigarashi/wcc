@@ -20,9 +20,10 @@
 //     console.log(removidoInicio)
 //     // ["Gabriela", "js"];
 
-const meuArray = [1, 4, 6];
-
-const removidoDoArray = meuArray.pop();
+const nossoArray = ["Fonseca", "Gabriela", "js"]
+const removidoDoArray = nossoArray.pop();
 
 console.log(removidoDoArray);
-console.log(meuArray);
+console.log(nossoArray);
+
+
