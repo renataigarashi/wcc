@@ -2,9 +2,9 @@
 // == Tem valor igual
 // === Tem valor e tipo igual
 // != Tem valor diferente
-// !== Tem valor e tipo diferente
+// !== Tem valor e tipo diferente  
 // > Maior que
-// < Menor que
+// < Menor queh
 // >= Maior ou igual
 // <= Menor ou igual
 

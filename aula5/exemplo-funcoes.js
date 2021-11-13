@@ -88,10 +88,25 @@ const nomeDaArrowFunction = () => {
 }
 console.log (nomeDaArrowFunction());
 
+
 //ARROW FUNCTION TERNARIO
 const retornoCondicionalTernario2 = (valor) => 
     valor > 200 ? "Valor maior que 200" : "Valor menor que 300"; //nesse caso o return ta implicito
 
-
 const resultado = retornoCondicionalTernario2(30);
 console.log("O resultado do retorno condicional ternario 2: " + resultado);
+
+
+//EXEMPLO ARROW
+
+const formataBomDiaArrow = (nome) => 
+    console.log("Bom dia, " + nome);
+
+formataBomDiaArrow("Renata");
+
+const formataBomDiaArrowReturn = (nome) => {
+    return "Bom dia com Arrow e Return, " + nome;
+}
+
+const msgArrowRetur = formataBomDiaArrowReturn("Renata");
+console.log(msgArrowRetur);

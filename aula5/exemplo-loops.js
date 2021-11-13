@@ -15,6 +15,13 @@ for(let cont = 1; cont <= 5; cont++) {
         break;
     }
 }
+
+//DECREMENTO
+console.log("EXEMPLO DECREMENTO");
+for(let cont = 5; cont >0; cont--) {
+    console.log(cont);
+}
+
 console.log();
 
 //
@@ -81,3 +88,68 @@ const arrayComMapAtualizado = arrayComMap.map(function(value){
 });
 
 console.log(arrayComMapAtualizado);
+
+
+console.log("----------------------------")
+//imprimindo array
+
+const array = [1,2,3,4,5,6,7,8];
+
+for (let indice = 0; indice < array.length; indice++){
+    console.log(array[indice]);
+}
+
+console.log("---------------Exemplo com forEach----------")
+array.forEach(function (numero) {
+    console.log(numero);
+});
+
+
+console.log("--------------- metodo map-------");
+
+const myNewArray = array.map(function (num){
+    return num = num + 1;
+});
+console.log("Retornando array original e array com map");
+console.log(array);
+console.log(myNewArray);
+
+console.log("OUTRO EXEMPLO MAP, PEGANDO DADOS ESPECIFICOS");
+
+const meusUsuarios = [{id: 1, nome: "Renata", email: "rsigarashi@gmail.com", idade:38}, {id:2, nome: "Gabriela", email: "othergabis@gmail.com", idade: 28}];
+
+meusUsuarios.forEach(function (usuario){
+    console.log(usuario);
+})
+console.log("-------------")
+
+const meusUsuariosFormatados = meusUsuarios.map(function (usuario){
+    const usuarioFormatado = {nome: usuario.nome, email: usuario.email};
+    return usuarioFormatado;
+})
+console.log(meusUsuariosFormatados);
+
+//FILTER - consegue tirar coisas do array sem modificar o original
+console.log("-------------------FILTER-------------");
+
+//Se  numero for par ele vai criar um array "filtrando" esses numeros
+const myNumber = [1,2,3,4,5,6,7,8,9,10];
+
+const myNumberPares = myNumber.filter(function (number) {
+    return number % 2 === 0;
+});
+
+console.log(myNumberPares);
+
+
+
+console.log("-------------");
+//Exemplo filtrando pelo status
+const meusUsuarios2 = [{id: 1, nome: "Renata", email: "rsigarashi@gmail.com", idade:38, status: "offline"}, {id:2, nome: "Gabriela", email: "othergabis@gmail.com", idade: 28, status:"online"}];
+
+const meusUsuariosOnline = meusUsuarios2.filter(function (usuario){
+    return usuario.status == "online";
+});
+
+console.log(meusUsuariosOnline);
+
